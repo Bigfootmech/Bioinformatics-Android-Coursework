@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BLOSUM_prompt">Choose a BLOSUM matrix</string>
+    <string-array name="BLOSUMS_ARRAY">
+        <item>BLOSUM45</item>
+        <item>BLOSUM62</item>
+        <item>BLOSUM80</item>
+    </string-array>
+</resources>

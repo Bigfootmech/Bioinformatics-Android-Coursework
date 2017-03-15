@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="50" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sequence Comparison"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Sequence 1" />
+
+    <EditText
+        android:id="@+id/Sequence1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input a sequence" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Sequence 2" />
+
+
+    <EditText
+        android:id="@+id/Sequence2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input a sequence"
+        /> 
+ 
+
+ 	<LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+      >
+ 
+    <CheckBox
+        android:id="@+id/cRNA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="RNA" />
+
+
+    <CheckBox
+        android:id="@+id/cDNA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="DNA" />
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/BLOSUM_prompt" />
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="80dp"
+	    android:orientation="vertical"
+	    android:paddingTop="10dp" >
+
+		<Button
+		    android:id="@+id/bCompare"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:layout_gravity="center"
+		    android:text="Compare" />
+		
+		<TextView
+        	android:id="@+id/tvResults"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:textSize="40dp"
+       	 	android:gravity="center"
+        	android:text="" />
+	</LinearLayout>
+	
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	 
+
+		<TextView
+		    android:id="@+id/tvSeq1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:text="Seq1"
+		    android:textSize="25dp" />
+
+		<TextView 
+	    	android:id="@+id/tvScore"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:textSize="25dp"
+       	 	android:gravity="center"
+        	android:text="Score1"/>
+
+		<TextView
+		    android:id="@+id/tvSeq2"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:text="Seq2"
+		    android:textSize="25dp" />
+		
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+
+	    <Button
+	        android:id="@+id/bleft"
+	        android:layout_width="60dp"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="Left" />
+
+	    <Button
+	        android:id="@+id/bright"
+	        android:layout_width="60dp"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="Right" />
+
+	</LinearLayout>
+	
+	</LinearLayout>

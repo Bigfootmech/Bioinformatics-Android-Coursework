@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="25dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+         android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:src="@drawable/logo1" />
+    
+    
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+
+    <Button
+        android:id="@+id/bSequenceComparison"
+        android:layout_width="200dp"
+		android:layout_height="wrap_content"
+        android:background="@drawable/mybutton_background"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="Compare Sequences" 
+        />
+
+  
+        <Button
+            android:id="@+id/bProcess"
+            android:layout_width="200dp"
+		    android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/mybutton_background"
+            android:gravity="center"
+            android:text="Help" />
+
+
+		    <Button
+		    android:id="@+id/bTest"
+		    android:layout_width="200dp"
+		    android:layout_height="wrap_content"
+		    android:text="Test"
+		    android:textColor="#ffffff"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:background="@drawable/mybutton_background"/>
+
+
+		    <Button
+		    android:id="@+id/bSequenceviews"
+		    android:layout_width="200dp"
+		    android:layout_height="wrap_content"
+		    android:text="View Sequences"
+		    android:textColor="#ffffff"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:background="@drawable/mybutton_background"/>
+	</LinearLayout>
+</LinearLayout>

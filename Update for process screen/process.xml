@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+
+    <TableRow>
+        <TextView
+            android:gravity="center"
+            android:text="Comparing to Amino Acid sequences"
+            android:padding="10dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Comparing two sequences is straightforward. 
+            1. Align the sequences as needed or specified: "
+            android:padding="5dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="T A D F E"
+            android:padding="3dip" 
+            android:gravity="center"/>
+    </TableRow>
+	<TableRow>
+        <TextView
+            android:text="F E T A D"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:text="or"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:text="- T A D F E"
+            android:padding="3dip" 
+            android:gravity="center"/>
+    </TableRow>
+	<TableRow>
+        <TextView
+            android:text="F E T A D -"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text=" 
+            2. Using a BLOSUM matrix, look up the score between each pair and sum them up:"
+            android:padding="5dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="T	 A  D F	 E"
+            android:padding="3dip"
+             />
+
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="F   E  T	 A	 D"
+            android:padding="3dip"
+             />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="-2-1-1-2+2 = -4"
+            android:padding="3dip"
+             />
+   </TableRow>
+   <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text=" 
+            2. There are three widely used BLOSUM matrices: BLOSUM45 which compares highly divergent sequences, BLOSUM for less divergent sequences. Between the two is the BLOSUM62. 
+            Each scores pairs and gaps differently."
+            android:padding="5dip" />
+    </TableRow>
+</TableLayout>

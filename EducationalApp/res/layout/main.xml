@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="25dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="176dp"
+        android:src="@drawable/ic_launcher1" 
+        android:paddingBottom="10dp"/>
+
+    <Button
+        android:id="@+id/bSequenceComparison"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Compare Sequences"
+        android:background="@drawable/mybutton_background"/>
+
+    <Button
+        android:id="@+id/bProcess"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Process" 
+   		android:background="@drawable/mybutton_background"/>
+
+    <Button
+        android:id="@+id/bActivity3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Activity 3"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/mybutton_background"/>
+        
+
+    <Button
+        android:id="@+id/bActivity4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Activity 4"
+        android:layout_gravity="center" 
+        android:gravity="center" 
+        android:background="@drawable/mybutton_background"/>
+        
+
+ </LinearLayout>
